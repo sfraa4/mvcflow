@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <style>
+    <!-- <style>
      body {
     font-family: 'Segoe UI', sans-serif;
     background-color:rgb(231, 236, 255);
@@ -52,11 +52,16 @@ h1 {
     text-align: center;
     margin-bottom: 15px;
     font-size: 18px;
-}
-
-    </style>
+} 
+    </style> -->
 </head>
+
 <body>
+    @extends('layout')
+    @section('title', 'Master Category')
+    @section('header', 'Master Category')
+    @section('content')
+
     <table>
         <tr>
             <td>Id</td>
